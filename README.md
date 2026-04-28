@@ -28,14 +28,14 @@ System Requirements
 #How It Works
 On first run, the system downloads the Stable Diffusion model from Hugging Face and stores it locally. After that, the model is reused. The system automatically detects hardware and uses GPU if available, otherwise falls back to CPU.
 #Installation Steps
-Step 1: Download or clone repository
-Step 2: Run install.bat to install dependencies
-Step 3: Launch using run_streamlit.bat
-Step 4: Wait for first model download
-Step 5: Open localhost in browser
+#Step 1: Download or clone repository
+#Step 2: Run install.bat to install dependencies
+#Step 3: Launch using run_streamlit.bat
+#Step 4: Wait for first model download
+#Step 5: Open localhost in browser
 #Model System
 Uses Stable Diffusion v1.5 EMA-pruned model. Automatically downloaded on first run. Users can add custom models inside models/checkpoints folder.
 #Contributions
 Solo developer project. Contributions and suggestions are welcome. Future updates may include image-to-image generation, better GPU optimization, and UI improvements.
-License
-MIT License
+#License
+#MIT License
