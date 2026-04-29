@@ -49,6 +49,22 @@ On first run, the system downloads the Stable Diffusion model from Hugging Face 
 ---
 
 ## Installation Steps
+## Before You Start (Important)
+
+After downloading the project from GitHub, make sure to **extract the ZIP file** before running any scripts.
+
+Do NOT run the files directly from inside the ZIP folder.
+
+Steps:
+
+1. Right-click the downloaded ZIP file  
+2. Click **Extract All**  
+3. Open the extracted folder  
+4. Then run `install.bat`
+
+Running scripts directly from the ZIP file may cause errors such as:
+
+Could not open requirements file: [Errno 2] No such file or directory: requirements.txt next follow the steps and you will be golden .
 
 ### Step 1: Download or clone repository
 
@@ -58,7 +74,7 @@ On first run, the system downloads the Stable Diffusion model from Hugging Face 
 
 ### Step 4: Wait for first model download
 
-### Step 5: Open localhost in browser
+### Step 5: Open localhost in browser( take a lot of time depend on internet  and system  as in this phase the modle  is being installed  so please  wait 10 to 15 min as it is a 4 gb modle)
 
 ---
 
